@@ -1,0 +1,25 @@
+{
+  "name": "UrlPingProcess",
+  "version": "1.0.0",
+  "description": "Http Configurable System Process runner",
+  "main": "Server.js",
+  "dependencies": {
+    "express": "^4.10.5",
+    "morgan": "^1.5.0",
+    "mysql": "^2.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/binRick/UrlPingProcess.git"
+  },
+  "author": "Rick Blundell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/binRick/UrlPingProcess/issues"
+  },
+  "homepage": "https://github.com/binRick/UrlPingProcess"
+}

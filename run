@@ -1,0 +1,6 @@
+#!/bin/sh
+export PORT="3000"
+export USER="nobody"
+export SCRIPT="./Server.js"
+cd /service/PortManager
+exec setuidgid ${USER} ${SCRIPT} 2>&1
