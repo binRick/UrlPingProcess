@@ -34,7 +34,7 @@ app.get(Config.urlMatch, function(req, res) {
             res.write(Config.Data.stderrLines(lines));
         });
         Spawn.on('exit', function(code) {
-            res.write(Config.Data.ProcessComplete(code, OutLines.stdout, OutLines.stderr));
+            res.end(Config.Data.ProcessComplete(code, OutLines.stdout, OutLines.stderr));
         });
     });
 });
