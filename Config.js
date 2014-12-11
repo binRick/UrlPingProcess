@@ -3,8 +3,8 @@ module.exports = {
         host: '127.0.0.1',
         port: 3306,
         user: 'root',
-        password: 'as9dta97sdt8a9sdt',
-        database: 'observium'
+        password: 'password',
+        database: 'database'
     },
     Data: {
         ProcessComplete: function(exitCode, Stdout, Stderr) {
